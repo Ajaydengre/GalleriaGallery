@@ -19,7 +19,7 @@ $newprotect=trim($newprotect);
 $newprotect=strip_tags($newprotect);
  $newprotect=filter_var($newprotect, FILTER_SANITIZE_STRING);
 $hashpasswords = hash('sha256',$newprotect);
-$conn = new mysqli("localhost","root","AjAy1809","Galleriauser");
+$conn = new mysqli("localhost","root","","Galleriauser");
 //create connection
 
 //check connection
