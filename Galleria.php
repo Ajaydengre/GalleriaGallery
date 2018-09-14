@@ -4,7 +4,7 @@ if (isset($_SESSION['user'])!="")
 { header("Location:welcome.php");
 exit;
 }
-$conn = new mysqli("localhost","root","AjAy1809","Galleriauser");
+$conn = new mysqli("localhost","root","","Galleriauser");
 
 //check connection
 if ($conn ->connect_error){
